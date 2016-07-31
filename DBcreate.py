@@ -70,7 +70,7 @@ query = 'INSERT INTO TEST_FLOW VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)'
 query1 = 'INSERT INTO ACDC_RESULT VALUES (?,?,?,?,?,?,?,?)'
 
 filenames =[]
-cff.findallfiles('*',filenames,'D:\python\kalos_dlg\功能性能分析数据')
+cff.findallfiles('*',filenames,'D:\Workspace\FMSH\Python\kalos_dlg\功能性能分析数据')
 #for i in filenames:
 #    print(i)
 #    c = re.match('.*\\\\功能性能分析数据\\\\(.*)\.dlg',i) 
